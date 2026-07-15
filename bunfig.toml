@@ -1,3 +1,8 @@
 [install]
 minimumReleaseAge = 259200 # seconds
-minimumReleaseAgeExcludes = ["@types/node", "typescript"]
+minimumReleaseAgeExcludes = [
+    "@types/node",
+    "typescript",
+    "@liminal-machines-co/serial",
+    "@liminal-machines-co/gpio",
+]
